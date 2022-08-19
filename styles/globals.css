@@ -5,22 +5,16 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
-
-a {
-  color: inherit;
-  text-decoration: none;
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
-* {
-  box-sizing: border-box;
+.pageNumbers {
+  display: flex;
+  flex-direction: row;
 }
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.pageNum {
+  cursor: pointer;
+  padding-right: 15px;
 }
